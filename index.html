@@ -5,73 +5,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>IBO HTML</title>
-    <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="style_sass.css">
+    <link rel="stylesheet" href="color_theme.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 </head>
     <body>
+        <header class="w3-container w3-content w3-center w3-theme">
+                <h1>Notizbuch</h1>
+        </header>
         <section>
-            <div id="header">
-                Notizbuch
+             <div class="w3-padding-small w3-theme-l1 w3-cell-row w3-content">            
+                <div class="w3-container w3-cell w3-mobile" >
+                        <p><i class="material-icons w3-xlarge">reply</i> Titel 1</p>
+                        <p><i class="material-icons w3-xlarge">query_builder</i> 01.01.2001</p>
+                        <p><i class="material-icons w3-xlarge">supervisor_account</i> Vorname1 Nachname1, Vorname2 Nachname2</p>
+                </div>            
+                <div class="w3-cell w3-cell-middle w3-mobile w3-theme-l1 w3-right-align">
+                    <button class="w3-button">
+                        <i class="material-icons w3-xxlarge">create</i>
+                    </button>
+                </div>
             </div>
-            <ul id="main_list">
-                <li>
-                    <div name="proceedings1">
-                        <div name="header1" class="header">
-                            <table>
-                                <tr>
-                                    <td> <img width="16px" src="assets/001-interface.png"/></td>
-                                    <td >
-                                        <input type="text" value="Titel1" disabled="true" class="fieldentry title">
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td><img width="16px" src="assets/003-time.png"/></td>
-                                    <td > <input type="text" value="01.01.2001" disabled="true" class="fieldentry"></td>
-                                </tr>
-                                <tr>
-                                    <td><img width="16px" src="assets/002-users.png"/></td>
-                                    <td ><input type="text" value="Vorname1 Nachname1, Vorname2, Nachname2" disabled="true" class="fieldentry"></td>
-                                </tr>
-                            </table>
-                            <button id="button1">
-                                <img src="assets/001-draw.png" alt="">
-                            </button>
-                        </div>
-                        <div name="Text1">
-                            <textarea>- Punkt1 &#10;- Punkt2&#10;- Punkt3</textarea>
-                        </div>
-                    </div>
-                </li>
-                <li>
-                    <div name="proceedings2">
-                        <div name="header" class="header">
-                            <table>
-                                <tr>
-                                    <td> <img width="16px" src="assets/001-interface.png"/></td>
-                                    <td >
-                                        <input type="text" value="Titel2" disabled="true" class="fieldentry title">
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td><img width="16px" src="assets/003-time.png"/></td>
-                                    <td > <input type="text" value="01.01.2001" disabled="true" class="fieldentry"></td>
-                                </tr>
-                                <tr>
-                                    <td><img width="16px" src="assets/002-users.png"/></td>
-                                    <td ><input type="text" value="Vorname1 Nachname1, Vorname2, Nachname2" disabled="true" class="fieldentry"></td>
-                                </tr>
-                            </table>
-                            <button id="button2">
-                                <img src="assets/001-draw.png" alt="">
-                            </button>
-                        </div>
-                        <div name="Textbox">
-                            <textarea>- Punkt1 &#10;- Punkt2&#10;- Punkt3</textarea>
-                        </div>
-                    </div>
-                </li>
-            </ul>
+            <div class="w3-content w3-padding-small w3-border">
+                    <textarea>- Punkt1 &#10;- Punkt2&#10;- Punkt3</textarea>
+                </div>
+           
         </section>
-        <button id="add">+</button>
+        <button id="add" class="w3-btn w3-red w3-circle">
+            <i class="material-icons w3-xxlarge" >add</i>
+        </button>
     </body>
 </html>

@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css?family=Indie+Flower");
+header h1 {
+  font-family: 'Indie Flower', cursive;
+  font-size: 3em;
+}
+
+.w3-button:hover {
+  background-color: #ea1313 !important;
+  color: #af0e0e !important;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+}
+
+button > img {
+  pointer-events: none;
+}
+
+table {
+  width: 80%;
+  box-sizing: border-box;
+}
+
+textarea {
+  resize: none;
+  width: 100%;
+  min-height: 7em;
+  height: 100%;
+  pointer-events: none;
+  box-sizing: border-box;
+  /*background-color: antiquewhite*/
+  border: none;
+}
+
+#add {
+  position: fixed;
+  z-index: 1000;
+  box-shadow: 5px 5px 2px #888888;
+  bottom: 10px;
+  right: 10px;
+  background-color: #af0e0e !important;
+}
+
+#add:hover {
+  background-color: white !important;
+  color: #ea1313 !important;
+}
+ 
+
+ /*# sourceMappingURL= style_sass.css.map */
