@@ -10,17 +10,11 @@ header h1 {
 }
 
 button {
-  border: none;
   cursor: pointer;
 }
 
 button > img {
   pointer-events: none;
-}
-
-table {
-  width: 80%;
-  box-sizing: border-box;
 }
 
 textarea {
@@ -34,16 +28,14 @@ textarea {
   border: none;
 }
 
-#add {
+section + button {
+  background-color: #af0e0e !important;
   position: fixed;
-  z-index: 1000;
-  box-shadow: 5px 5px 2px #888888;
   bottom: 10px;
   right: 10px;
-  background-color: #af0e0e !important;
 }
 
-#add:hover {
+section + button:hover {
   background-color: white !important;
   color: #ea1313 !important;
 }

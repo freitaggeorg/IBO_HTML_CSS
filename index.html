@@ -11,28 +11,94 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 </head>
     <body>
-        <header class="w3-container w3-content w3-center w3-theme">
+        <header class="w3-container w3-center w3-theme">
                 <h1>Notizbuch</h1>
         </header>
         <section>
-             <div class="w3-padding-small w3-theme-l1 w3-cell-row w3-content">            
-                <div class="w3-container w3-cell w3-mobile" >
-                        <p><i class="material-icons w3-xlarge">reply</i> Titel 1</p>
-                        <p><i class="material-icons w3-xlarge">query_builder</i> 01.01.2001</p>
-                        <p><i class="material-icons w3-xlarge">supervisor_account</i> Vorname1 Nachname1, Vorname2 Nachname2</p>
-                </div>            
-                <div class="w3-cell w3-cell-middle w3-mobile w3-theme-l1 w3-right-align">
-                    <button class="w3-button">
-                        <i class="material-icons w3-xxlarge">create</i>
-                    </button>
+             <div class="w3-row">
+                <div class="w3-half">
+                    <div class="w3-margin w3-card-4">
+                        <div class="w3-theme-l1 w3-container w3-display-container">
+                            <div class="w3-bar-block">
+                                <div>
+                                    <div class="w3-cell">
+                                        <i class="material-icons w3-xlarge">reply</i>
+                                    </div>
+                                    <div class="w3-cell w3-container w3-cell-middle">
+                                        Titel 1
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="w3-cell">
+                                        <i class="material-icons w3-xlarge">query_builder</i>
+                                    </div>
+                                    <div class="w3-cell w3-container w3-cell-middle">
+                                        01.01.2001
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="w3-cell">
+                                        <i class="material-icons w3-xlarge">supervisor_account</i>
+                                    </div>
+                                    <div class="w3-cell w3-container w3-cell-middle">
+                                        Vorname1 Nachname1, Vorname2 Nachname2
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="w3-display-topright ">
+                                <button class="w3-button">
+                                    <i class="material-icons w3-xxlarge">create</i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="w3-content w3-border w3-padding">
+                            <textarea>- Punkt1 &#10;- Punkt2&#10;- Punkt3</textarea>
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <div class="w3-content w3-padding-small w3-border">
-                    <textarea>- Punkt1 &#10;- Punkt2&#10;- Punkt3</textarea>
+                <div class="w3-half">
+                    <div class="w3-margin w3-card-4">
+                        <div class="w3-theme-l1 w3-container w3-display-container">
+                            <div class="w3-bar-block">
+                                <div>
+                                    <div class="w3-cell">
+                                        <i class="material-icons w3-xlarge">reply</i>
+                                    </div>
+                                    <div class="w3-cell w3-container w3-cell-middle">
+                                        Titel 2
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="w3-cell">
+                                        <i class="material-icons w3-xlarge">query_builder</i>
+                                    </div>
+                                    <div class="w3-cell w3-container w3-cell-middle">
+                                        02.02.2002
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="w3-cell">
+                                        <i class="material-icons w3-xlarge">supervisor_account</i>
+                                    </div>
+                                    <div class="w3-cell w3-container w3-cell-middle">
+                                        Vorname3 Nachname3, Vorname4 Nachname4
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="w3-display-topright ">
+                                <button class="w3-button">
+                                    <i class="material-icons w3-xxlarge">create</i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="w3-content w3-border w3-padding">
+                            <textarea>- Punkt4 &#10;- Punkt5&#10;- Punkt6</textarea>
+                        </div>
+                    </div>
                 </div>
-           
+             </div>          
         </section>
-        <button id="add" class="w3-btn w3-red w3-circle">
+        <button class="w3-btn w3-theme-l1 w3-square">
             <i class="material-icons w3-xxlarge" >add</i>
         </button>
     </body>

@@ -2,6 +2,7 @@
 $main_bg_color: #af0e0e;
 $highlight: #ea1313 ;
 
+
 header {
     h1 {
         font-family: 'Indie Flower', cursive;
@@ -17,7 +18,6 @@ header {
 }
 
 button {
-    border: none;
     cursor: pointer;
    
 }
@@ -26,11 +26,6 @@ button > img{
     pointer-events: none;
 }
 
-
-table {
-    width: 80%;
-    box-sizing: border-box;
-}
 
 textarea {
     resize:none;
@@ -43,13 +38,11 @@ textarea {
     border: none;
 }
 
-#add{
-    position: fixed;
-    z-index: 1000;
-    box-shadow: 5px 5px 2px #888888;
+section+button{
+    background-color: $main_bg_color !important;
+    position:  fixed;
     bottom: 10px;
     right: 10px;
-    background-color: $main_bg_color !important;
     &:hover {
         background-color: white !important;
         color: $highlight !important;
